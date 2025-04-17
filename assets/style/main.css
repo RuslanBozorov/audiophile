@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Manrope_400";
+  src: url(../fonts/Manrope_400.ttf);
+}
+@font-face {
+  font-family: "Manrope_700";
+  src: url(../fonts/Manrope_700.ttf);
+}
+.home_container {
+  max-width: 1440px;
+  height: 3950px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.hero_box {
+  background-color: #0e0e0e;
+  border-radius: 10px;
+  padding: 32px 165px;
+}
+
+.header_content_box {
+  border: 1px solid white;
+}
+
+.header {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-cart-shopping {
+  color: white;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.header_ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}/*# sourceMappingURL=main.css.map */
