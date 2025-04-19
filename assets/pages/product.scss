@@ -1,0 +1,1305 @@
+@font-face {
+  font-family: 'Manrope_400';
+  src: url(../fonts/Manrope_400.ttf);
+}
+
+@font-face {
+  font-family: 'Manrope_700';
+  src: url(../fonts/Manrope_700.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headphones_container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.hero_box {
+  background-color: #0e0e0e;
+  padding-bottom: 97px;
+}
+
+.header {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  padding: 32px 165px;
+}
+
+.fa-cart-shopping {
+  color: white;
+  cursor: pointer;
+}
+
+.headphones_title {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header_left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}
+
+.header_link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-family: 'Manrope_700';
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.4s;
+
+  &:hover {
+    color: #d87d4a;
+    transition: 0.4s;
+  }
+}
+
+.fa-bars {
+  color: white;
+  display: none;
+}
+
+.line_box {
+  width: 100%;
+  height: 1px;
+  background-color: #4b4b4b;
+  margin-bottom: 98px;
+}
+
+.headphones_title {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+// headphones_section_group
+.headphones_section_group {
+  width: 100%;
+  padding: 79px 165px;
+}
+
+// headphones_section1
+.product_section {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 160px;
+  gap: 124px;
+}
+
+// headphones_section2
+.headphones_section2 {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+// headphones_section3
+.headphones_section3 {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+// headphones_s1_left_box
+
+// headphones_s1_right_box
+.product_s1_right_box {
+  width: 445px;
+  height: 343px;
+}
+
+// headphone_s1_right_title1
+.headphone_s1_right_title1 {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #d87d4a;
+  margin-bottom: 16px;
+}
+
+// headphones_s1_right_title2
+.headphones_s1_right_title2 {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+// headphones_s1_right_text
+.headphones_s1_right_text {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+// headphones_s1_right_btn
+.headphones_s1_right_btn {
+  width: 160px;
+  height: 48px;
+  border: transparent;
+  transition: 0.4s;
+  background-color: #d87d4a;
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fbaf85;
+    transition: 0.4s;
+  }
+}
+
+.shop_group_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.shop_group_card {
+  width: 350px;
+  height: 284px;
+  display: flex;
+  padding-top: 80px;
+}
+
+.shop_card_content_box {
+  width: 100%;
+  height: 204px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+.shop_group_img {
+  transform: translateY(-80px);
+}
+
+.shop_group_link_text {
+  width: 100%;
+}
+
+.shop_flex {
+  width: 100%;
+  margin-top: -30px;
+}
+
+.shop_flex2 {
+  width: 100%;
+  margin-top: -19px;
+}
+
+.shop_group_title {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1.29px;
+  margin-bottom: 15px;
+}
+
+.shop_span {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.shop_span_text {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  transition: 0.4s;
+}
+
+.shop_card_content_box:hover .shop_span_text {
+  color: #d87d4a;
+  transition: 0.4s;
+}
+
+.shop_card_content_box:hover .fa-arrow-right {
+  color: #d87d4a;
+  transition: 0.4s;
+}
+
+// best_container
+.best_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.best_left_box {
+  width: 445px;
+  height: 295px;
+}
+
+.best_title {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.best_span {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  color: #d87d4a;
+}
+
+.best_text {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.aman1 {
+  display: none;
+}
+
+// orange_line_box
+
+.orange_line_box {
+  width: 100%;
+  padding: 0px 165px;
+  position: relative;
+}
+
+.orange {
+  width: 101px;
+  height: 4px;
+  background-color: #d87d4a;
+  position: absolute;
+}
+
+// footer_code
+.footer_container {
+  width: 100%;
+  background-color: #000000;
+  padding: 71px 165px 48px 165px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer_navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-bottom: 36px;
+}
+
+// fo_text_lo_div_code
+
+.fo_text_lo_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fo_text_box {
+  width: 540px;
+  height: auto;
+  color: white;
+}
+
+.fo_text1 {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 56px;
+}
+
+.fo_text2 {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.social_box {
+  height: 184px;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 16px;
+}
+
+.fo_li {
+  color: white;
+  font-size: 24px;
+  transition: 0.4s;
+  &:hover {
+    color: #d87d4a;
+    transition: 0.4s;
+  }
+}
+
+// product_code
+
+.product_s1_left_box {
+  width: 540px;
+  height: 560px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.back_text_div {
+  margin-bottom: 56px;
+}
+
+.add_card_box {
+  width: 100%;
+}
+
+.add_money_text {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1.29px;
+  text-transform: uppercase;
+  margin-bottom: 47px;
+}
+
+.add_btns_box {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.count_box {
+  width: 120px;
+  height: 48px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.add_btn {
+  width: 160px;
+  height: 48px;
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #d87d4a;
+  border: transparent;
+  &:hover {
+    background-color: #fbaf85;
+    transition: 0.4s;
+  }
+}
+
+.count_text {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  transition: 0.4s;
+  cursor: pointer;
+  &:hover {
+    color: #d87d4a;
+    transition: 0.4s;
+  }
+}
+
+.back_link {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+  text-decoration: none;
+}
+
+// featura_container_code
+.featura_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 160px;
+  gap: 125px;
+}
+
+.featura_left_box {
+  width: 635px;
+  height: auto;
+}
+
+.featura_title {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.featura_text {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.featura_right_box {
+  width: 350px;
+  height: 225px;
+}
+
+.featura_tuitle_2 {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.featura_ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.featura_list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.featura_list_text1 {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #d87d4a;
+}
+
+.featura_list_rext2 {
+  font-family: 'Manrope_400';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+// grid_card_box
+.grid_card_box {
+  width: 100%;
+  height: 592px;
+  margin-bottom: 160px;
+  display: flex;
+  gap: 30px;
+}
+
+.left_grid {
+  width: 445px;
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right_grid {
+  width: 635px;
+  height: 592px;
+  border-radius: 8px;
+}
+
+.grid1,
+.grid2 {
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.grid_img1,
+.grid_img2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.grid_img_m {
+  display: none;
+}
+
+// like_title_content
+.like_title_content {
+  width: 100%;
+  height: 571px;
+  margin-bottom: 160px;
+}
+
+.like_title_top {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.like_container {
+  width: 100%;
+  height: 471px;
+  display: flex;
+  gap: 30px;
+}
+
+.like_card {
+  width: 350px;
+  height: 471px;
+  text-align: center;
+}
+
+.like_gray_box {
+  width: 100%;
+  height: 318px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like_title {
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 1.71px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.like_btn {
+  width: 160px;
+  height: 48px;
+  background-color: #d87d4a;
+  transition: 0.4s;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Manrope_700';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: transparent;
+  &:hover {
+    background-color: #fbaf85;
+    transition: 0.4s;
+  }
+}
+
+@media only screen and (max-width: 1410px) {
+  .headphones_section_group {
+    padding: 79px 135px;
+  }
+}
+
+@media only screen and (max-width: 1351px) {
+  .headphones_section_group {
+    padding: 79px 105px;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 132px;
+  }
+
+  .orange_line_box {
+    padding: 0px 132px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .headphones_section_group {
+    padding: 79px 75px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 100px;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .headphones_section_group {
+    padding: 79px 45px;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .headphones_section_group {
+    padding: 79px 15px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 100px;
+  }
+
+  .orange_line_box {
+    padding: 0px 100px;
+  }
+
+  .header_ul {
+    gap: 17px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 68px;
+  }
+
+  .orange_line_box {
+    padding: 0px 68px;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .headphones_s1_left_box {
+    width: 500px;
+    height: 100%;
+  }
+  .headphones_section2,
+  .headphones_section3 {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .shop_group_box {
+    flex-direction: column;
+  }
+
+  .shop_group_card {
+    width: 100%;
+  }
+
+  .shop_group_img {
+    transform: translateY(-40px);
+  }
+
+  .product_section {
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .headphones_s1_left_box {
+    width: 450px;
+    height: 100%;
+  }
+  .headphones_section2,
+  .headphones_section3 {
+    height: 450px;
+  }
+
+  .best_container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .aman1 {
+    display: block;
+    margin-bottom: 63px;
+  }
+
+  .best_img {
+    display: none;
+  }
+
+  .best_left_box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .best_title {
+    width: 573px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .best_text {
+    width: 573px;
+    margin: 0 auto;
+  }
+
+  .right_grid {
+    width: 100%;
+    height: 500px;
+  }
+
+  .grid1,
+  .grid2 {
+    width: 100%;
+    height: 240px;
+  }
+
+  .left_grid {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid_card_box {
+    justify-content: space-between;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 36px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .headphones_s1_left_box {
+    width: 400px;
+    height: 100%;
+  }
+  .headphones_section2,
+  .headphones_section3 {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones_s1_left_box {
+    width: 350px;
+    height: 100%;
+  }
+  .headphones_section2,
+  .headphones_section3 {
+    height: 350px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 36px;
+  }
+
+  .orange_line_box {
+    padding: 0px 36px;
+  }
+
+  .header_ul {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .header_left {
+    gap: 42px;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .speker_s_box {
+    padding: 101px 62px;
+    background-position: center;
+  }
+
+  .footer_navbar {
+    flex-direction: column;
+  }
+
+  .logo_footer {
+    margin-bottom: 32px;
+  }
+
+  .fo_text_lo_div {
+    flex-direction: column;
+  }
+
+  .social_box {
+    height: auto;
+    justify-content: end;
+  }
+
+  .fo_text_box {
+    width: 100%;
+    height: auto;
+  }
+
+  .headphones_s1_left_box {
+    width: 100%;
+    height: 352px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headphones_section2 {
+    height: auto;
+    flex-direction: column-reverse;
+    gap: 52px;
+    margin-bottom: 120px;
+  }
+
+  .headphones_section3 {
+    height: auto;
+    flex-direction: column;
+    gap: 52px;
+    margin-bottom: 120px;
+  }
+
+  .headphones_s1_right_box {
+    text-align: center;
+  }
+
+  .headphone_s1_img {
+    width: 220px;
+    height: 243px;
+  }
+
+  .headphones_s1_right_text {
+    margin-bottom: 24px;
+  }
+
+  .product_s1_left_box {
+    width: 281px;
+    height: 480px;
+  }
+
+  .headphone_prodct_img {
+    width: 181px;
+    height: 215px;
+  }
+
+  .product_section {
+    gap: 69px;
+  }
+
+  .headphones_section_group {
+    padding: 33px 15px;
+  }
+
+  .back_text_div {
+    margin-bottom: 24px;
+  }
+
+  .featura_container {
+    flex-direction: column;
+    gap: 120px;
+  }
+
+  .featura_right_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .featura_tuitle_2 {
+    width: 339px;
+  }
+
+  .featura_left_box {
+    width: 100%;
+  }
+
+  .grid_img2 {
+    display: none;
+  }
+
+  .grid_img_m {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .right_grid {
+    width: 395px;
+    height: 368px;
+  }
+
+  .grid1,
+  .grid2 {
+    width: 277px;
+    height: 174px;
+  }
+
+  .left_grid {
+    width: 277px;
+  }
+
+  .grid_card_box {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .like_card {
+    width: 223px;
+    height: 471px;
+  }
+
+  .like_container {
+    justify-content: space-between;
+    gap: 11px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .like_container {
+    flex-direction: column;
+    height: auto;
+    gap: 56px;
+  }
+
+  .like_title_content {
+    height: auto;
+  }
+
+  .like_card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .best_text,
+  .best_title {
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  .product_section {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .grid_card_box {
+    flex-direction: column;
+  }
+
+  .left_grid,
+  .grid1,
+  .grid2 {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .right_grid {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .product_section {
+    flex-direction: column;
+  }
+
+  .product_s1_left_box {
+    width: 100%;
+  }
+
+  .product_s1_right_box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .orange_line_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer_ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fo_lo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social_box {
+    justify-content: center;
+  }
+
+  .fo_text_lo_div {
+    text-align: center;
+  }
+
+  .fo_text_box {
+    margin-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .headphones_s1_right_box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header,
+  .main_content_box,
+  .footer_container {
+    padding: 32px 24px;
+  }
+  .orange_line_box {
+    padding: 0px 24px;
+  }
+  .header,
+  .main_content_box {
+    justify-content: none;
+  }
+
+  .left_title1 {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 10px;
+    margin-bottom: 16px;
+  }
+
+  .left_title2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.29px;
+  }
+
+  .left_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin-bottom: 28px;
+  }
+
+  .speker_s_box {
+    padding: 101px 24px;
+    background-position: center;
+  }
+
+  .aman1 {
+    display: none;
+  }
+
+  .best_img {
+    display: block;
+  }
+
+  .best_title,
+  .best_span {
+    font-size: 28px;
+  }
+
+  .best_text {
+    font-size: 15px;
+  }
+
+  .best_left_box {
+    height: auto;
+  }
+
+  .fo_text_lo_div {
+    text-align: center;
+  }
+
+  .social_box {
+    justify-content: center;
+  }
+
+  .fo_text_box {
+    margin-bottom: 48px;
+  }
+
+  .headphone_s1_right_title1 {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .headphones_s1_right_title2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .headphones_s1_right_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+
+  .headphones_title {
+    font-family: 'Manrope_700';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .line_box {
+    width: 100%;
+    height: 1px;
+    background-color: #4b4b4b;
+    margin-bottom: 32px;
+  }
+
+  .hero_box {
+    padding-bottom: 32px;
+  }
+
+  .featura_right_box {
+    flex-direction: column;
+  }
+
+  .featura_tuitle_2 {
+    width: 100%;
+  }
+
+  .like_title_content {
+    margin-bottom: 120px;
+  }
+}

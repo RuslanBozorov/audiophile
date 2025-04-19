@@ -878,6 +878,9 @@
   .fo_text_box {
     margin-bottom: 48px;
   }
+  .shop_group_box {
+    margin-bottom: 120px;
+  }
 }
 @media only screen and (max-width: 360px) {
   .left_text {
